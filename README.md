@@ -75,7 +75,7 @@ options:
                         Path to save the model. Default: model.pkl
 ```
 
-Example `python train.py --data_path train.csv --model_save_path model.pkl`
+Example `python train.py --data_path data/train.csv --model_save_path data/model.pkl`
 
 After training the model you can run prediction
 
@@ -96,7 +96,7 @@ options:
 
 ```
 
-Example `python predict.py --data_path hidden_test.csv --model_path model.pkl --results_path results.csv`
+Example `python predict.py --data_path data/hidden_test.csv --model_path data/model.pkl --results_path data/results.csv`
 
 ## Implementation important notes
 
