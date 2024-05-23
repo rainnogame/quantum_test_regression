@@ -107,3 +107,5 @@ Example `python predict.py --data_path hidden_test.csv --model_path model.pkl --
     - I didn't use any configuration files
     - I didn't use any data validation
     - I didn't add any tests except the simplest one
+- I didn't try to write the best code in terms of code quality
+    - E.G. I used pandas for data loading, etc

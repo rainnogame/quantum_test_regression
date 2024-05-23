@@ -12,8 +12,8 @@ def test_train_predict(tmp_path: pathlib.Path):
     Test the whole pipeline
     :param tmp_path: Temporary directory fixture
     """
-    train_data_path = "train.csv"
-    test_data_path = "hidden_test.csv"
+    train_data_path = "data/train.csv"
+    test_data_path = "data/hidden_test.csv"
     model_path = tmp_path / "model.pkl"
     results_path = tmp_path / "results.csv"
 
