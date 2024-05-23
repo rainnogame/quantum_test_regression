@@ -110,3 +110,14 @@ Example `python predict.py --data_path data/hidden_test.csv --model_path data/mo
 - I didn't try to write the best code in terms of code quality
     - E.G. I used pandas for data loading, etc
 - I loaded a big file to the repo just to keep it simple
+
+## Results
+
+Results are saved in `data/results.csv` in format
+
+```
+target
+11.212
+43.324
+...
+```
