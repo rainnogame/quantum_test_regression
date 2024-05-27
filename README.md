@@ -70,9 +70,9 @@ Train regression model
 options:
   -h, --help            show this help message and exit
   --data_path DATA_PATH
-                        Path to the file with a data. Default: train.csv
+                        Path to the file with a data. Default: data/train.csv
   --model_save_path MODEL_SAVE_PATH
-                        Path to save the model. Default: model.pkl
+                        Path to save the model. Default: data/model.pkl
 ```
 
 Example `python train.py --data_path data/train.csv --model_save_path data/model.pkl`
@@ -88,11 +88,11 @@ Train regression model
 options:
   -h, --help            show this help message and exit
   --data_path DATA_PATH
-                        Path to the file with a data. Default: hidden_test.csv
+                        Path to the file with a data. Default: data/hidden_test.csv
   --model_path MODEL_PATH
-                        Path to the trained model. Default: model.pkl
+                        Path to the trained model. Default: data/model.pkl
   --results_path RESULTS_PATH
-                        Path to save the results. Default: results.csv
+                        Path to save the results. Default: data/results.csv
 
 ```
 
